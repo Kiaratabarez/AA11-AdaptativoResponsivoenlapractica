@@ -1,0 +1,20 @@
+Reflexión personal – Parte 3
+
+Al probar ambos enfoques noté varias diferencias en la experiencia de usuario:
+
+Con el diseño responsivo, los elementos se adaptan de manera fluida y continua al tamaño de la pantalla. Esto da una sensación más natural porque el cambio es progresivo, sin saltos bruscos.
+
+En el diseño adaptativo, los cambios son más evidentes, ya que el diseño “salta” de un estilo a otro cuando se pasa cierto ancho de pantalla. El usuario percibe un rediseño más notorio al cruzar esos puntos de quiebre.
+
+Ventajas y desventajas
+Responsivo
+Ventajas: Más flexible, un solo diseño que funciona para todas las resoluciones, menos mantenimiento a largo plazo.
+ Desventajas: Puede ser más complejo de ajustar al detalle, y si no se planifica bien puede generar tamaños raros en ciertos dispositivos.
+
+Adaptativo
+Ventajas: Permite tener un control muy específico de cómo se verá en móvil, tablet, desktop y garantiza que en cada rango de pantallas la experiencia sea óptima.
+Desventajas: Requiere definir y mantener varios puntos de quiebre; no cubre todos los tamaños intermedios.
+
+Casos de aplicación
+Responsivo: Lo aplicaría en sitios web modernos que necesitan adaptarse a cualquier tipo de pantalla (blogs o tiendas online). Es ideal cuando el contenido debe fluir sin importar el dispositivo.
+Adaptativo: Lo usaría en aplicaciones o páginas críticas donde la usabilidad debe estar optimizada en cada dispositivo clave (ejemplo: un banco), porque permite diseñar experiencias diferentes para móvil, tablet y desktop.
