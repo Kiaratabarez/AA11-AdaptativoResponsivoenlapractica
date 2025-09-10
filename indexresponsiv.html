@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo Responsivo</title>
+<style>
+body { margin: 0; font-family: sans-serif; }
+.contenedor {
+  display: flex;      /* 👈 ACTIVAMOS Flexbox */
+  flex-wrap: wrap;    /* Que las cajas se acomoden en varias filas si no entran */
+}
+
+.caja {
+background: lightseagreen;
+padding: 5%;
+font-size: 2vw; /* escala según el ancho de la ventana */
+flex: 1; 
+text-align: center;
+color: white;
+border-radius: 10px;
+}
+
+/* Diseño pantallas pequeñas */
+@media (max-width: 600px) {
+    .contenedor {
+      flex-direction: column; /*Columnas */
+    }
+    .caja {
+      font-size: 5vw; /* Texto grande en pantallas chicas */
+    }
+}
+</style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja"> Caja1: Este es un diseño responsivo</div>
+        <div class="caja">Caja 2: Se adapta al tamaño de la pantalla</div>
+        <div class="caja">Caja 3: En grande están en fila</div>
+        <div class="caja">Caja 4: En chico se apilan</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo Adaptativo</title>
+<style>
+body { margin: 0; font-family: sans-serif; }
+.caja { background: lightblue; padding: 20px; }
+
+/* Versión móvil */
+@media (max-width: 480px) {
+.caja { background: lightgreen; font-size: 14px; }
+}
+
+/* Versión tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+.caja { background: lightcoral; font-size: 18px; }
+}
+
+/* Versión desktop */
+@media (min-width: 769px) {
+.caja { background: lightblue; font-size: 22px; }
+}
+
+/*Versión para pantallas mas grandes  que 1200px*/
+@media (min-width: 1201px) {
+.caja { background: violet; font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="caja">Este es un diseño adaptativo</div>
+</body>
+</html>
+
+<!-- Los cambios que observe al ir cambiando los tamaños de pantalla son:
+1- De 0 a 480px se ve un fondo verde claro, con un tamaño de fuente de 14px
+2- De 481px a 768px se ve un fondo coral claro, con un tamaño de fuente de 18px
+3- De 769px a 1200px se ve un fondo celeste claro, con un tamaño de fuente de 22px
+4- De 1201px en adelante se ve un fondo violeta, con un tamaño de funte de 28px-->
